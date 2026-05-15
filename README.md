@@ -39,3 +39,6 @@ local label = Mittens.Label {
 
 lib.MountToScreen(label, Screen)
 ```
+
+# Short History of Mittens
+So mittens was supposed to be a Leaderstat system for the players in the Current Server, Basically the same as the roblox lederboard. But then an idea popped up in my head and i decided it was supposed to be a UI Framework
