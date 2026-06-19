@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  // 👇 ADDED THIS LINE TO FIX GITHUB PAGES ROUTING
+  base: '/Mittens/', 
+
   title: "Mittens UI Framework",
   description: "A UI Framework",
   
@@ -16,7 +19,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    // 👇 CHANGED THIS TO SHOW THE TEXT NEXT TO THE LOGO
     logo: '/logo.png',         
     siteTitle: 'Mittens',          
 
@@ -24,7 +26,7 @@ export default defineConfig({
       provider: 'local'
     },
     
-nav: [
+    nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/getting-started' }
     ],
@@ -36,7 +38,7 @@ nav: [
           { text: 'Installation', link: '/installation' }
         ]
       },
-            {
+      {
         text: 'Setting Up Mittens',
         items: [
           { text: 'Setting Up', link: '/setting-up' },
