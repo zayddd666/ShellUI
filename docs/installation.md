@@ -31,3 +31,7 @@ Only rbxm is available for now.
   background-color: #228b9b;
 }
 </style>
+
+:::tabs ==rbxm Download the Latest Rbxm Here!
+Currently, rbxm is the only option to install Mittens
+:::
