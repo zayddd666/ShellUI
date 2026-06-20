@@ -38,39 +38,40 @@ hero:
   }
 }
 
-/* --- MAXIMUM PURPLE GLOW EFFECT --- */
+/* --- ULTRA-SMOOTH BLUE GLOW EFFECT --- */
 .VPHero .image {
   position: relative;
 }
 
-/* Cranked up the sizing, density, and opacity for a massive radiation effect */
+/* Increased the blur to 90px to make it spread smoothly like butter */
 .VPHero .image::before {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;  /* Blown up size */
+  width: 500px;  
   height: 500px;
   background: radial-gradient(
     circle, 
-    rgba(192, 132, 252, 0.85) 0%,   /* Neon purple ultra-bright core */
-    rgba(147, 51, 234, 0.4) 40%,    /* Rich purple mid-radiation */
-    rgba(107, 33, 168, 0.1) 65%,    /* Deep violet fade */
-    rgba(0, 0, 0, 0) 80%            /* Final edge blend */
+    rgba(0, 240, 255, 0.75) 0%,   /* Bright Neon Cyan/Blue Core */
+    rgba(0, 140, 255, 0.35) 45%,  /* Electric Blue Mid-glow */
+    rgba(10, 35, 80, 0.1) 70%,    /* Deep Midnight Blue Blend */
+    rgba(0, 0, 0, 0) 85%          /* Flawless alpha fade */
   );
-  filter: blur(45px);               /* Balanced heavy blurring */
+  filter: blur(90px);              /* High blur values remove all jagged edge lines */
   z-index: -1;
   pointer-events: none;
 }
 
-/* Optional: Injects a secondary sharp drop-shadow directly onto your PNG file */
+/* Smooth ambient soft-bloom drop shadow on the image asset itself */
 .VPHero .image-src {
   max-height: 360px !important;
   max-width: 360px !important;
   width: 100% !important;
   height: auto !important;
   z-index: 2;
-  filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.4)); 
+  /* Swapped to a wide, low-intensity blue bloom for maximum smoothness */
+  filter: drop-shadow(0 0 45px rgba(0, 210, 255, 0.3)); 
 }
 </style>
