@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/ShellUI/',
   title: "ShellUI",
   description: "A clean custom UI framework for Roblox.",
   
@@ -14,7 +15,7 @@ export default defineConfig({
       { text: 'API', link: '/api/' }
     ],
 
-    // Clean, hardcoded sidebars that will never crash the build pipeline
+    // Clean, native sidebars
     sidebar: {
       '/resources/': [
         {
