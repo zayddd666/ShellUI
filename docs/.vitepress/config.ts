@@ -7,14 +7,12 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
 
-    // Fixes the topbar items
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resources', link: '/resources/getting-started' },
       { text: 'API Reference', link: '/api/' }
     ],
 
-    // Sets up multi-sidebar tracking for your folders
     sidebar: {
       '/resources/': [
         {
@@ -36,10 +34,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zayddd666/ShellUI' }
-    ],
-
-    search: {
-      provider: 'local'
-    }
+    ]
   }
 })
