@@ -16,7 +16,7 @@ hero:
 
 <style>
 /* --- HOMEPAGE LAYOUT --- */
-@media (min-width: 960px) {
+@media (min-width: 1700px) {
   .VPHero .container {
     display: flex !important;
     flex-direction: row !important;
@@ -42,14 +42,15 @@ hero:
   position: relative;
 }
 
+/* Expanded to 650px to fit perfectly behind the larger logo asset */
 .VPHero .image::before {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;  
-  height: 500px;
+  width: 650px;  
+  height: 650px;
   background: radial-gradient(
     circle, 
     rgba(0, 240, 255, 0.75) 0%,   /* Bright Neon Cyan Core */
@@ -57,17 +58,19 @@ hero:
     rgba(10, 35, 80, 0.1) 70%,    /* Deep Midnight Blue Blend */
     rgba(0, 0, 0, 0) 85%          /* Flawless alpha fade */
   );
-  filter: blur(90px);              
+  filter: blur(100px);              
   z-index: -1;
   pointer-events: none;
 }
 
+/* --- LOGO SIZE BOOST --- */
 .VPHero .image-src {
-  max-height: 360px !important;
-  max-width: 360px !important;
+  /* Cranked up from 360px to 520px for a prominent look */
+  max-height: 520px !important; 
+  max-width: 520px !important;  
   width: 100% !important;
   height: auto !important;
   z-index: 2;
-  filter: drop-shadow(0 0 45px rgba(0, 210, 255, 0.3)); 
+  filter: drop-shadow(0 0 55px rgba(0, 210, 255, 0.35)); 
 }
 </style>
