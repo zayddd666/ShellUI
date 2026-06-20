@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/ShellUI/',
   title: "ShellUI",
   description: "A clean custom UI framework for Roblox.",
   
