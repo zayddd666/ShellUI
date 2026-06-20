@@ -1,8 +1,8 @@
 ﻿# Installation
 
-## Mittens API Components
+## Mittens Mounting Function
 
-### Components
+### Mounting Function
 
 ```lua
 	MountToScreen = function(node: VirtualNode, screenGui: ScreenGui)
