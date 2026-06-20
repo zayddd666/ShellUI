@@ -1,4 +1,8 @@
-﻿# Installation
+﻿<script setup>
+import { withBase } from 'vitepress'
+</script>
+
+# Installation
 
 ## Choose an Installation Method
 
