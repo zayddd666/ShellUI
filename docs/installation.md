@@ -6,8 +6,7 @@
 
 Only rbxm is available for now.
 
-<!-- Dynamic Vue link handling the new ShellUI repo path perfectly -->
-<a :href="$withBase('/shellui standalone.rbxm')" download="shellui standalone.rbxm">
+<a :href="withBase('/shellui standalone.rbxm')" download="shellui standalone.rbxm">
   <button class="rbxm-download-btn">
     Download latest rbxm
   </button>
