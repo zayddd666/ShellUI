@@ -1,8 +1,6 @@
 ﻿## Setting Up UI For ShellUI
 
-Set up the UI To get started with ShellUI
-
-VIEW ALL COMPONENTS IN API
+# Set up the UI To get started with ShellUI
 
 # Example Client Script
 
