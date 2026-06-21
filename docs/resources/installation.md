@@ -49,4 +49,10 @@ In your terminal, run this command
 ```bash
 pesde add zayddd666/shellui
 ```
+
+== Wally
+In your wally.toml, add this line to your dependencies.
+```toml
+shellui = "zayddd666/shellui@0.1.0"
+```
 :::
