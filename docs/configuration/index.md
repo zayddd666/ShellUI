@@ -1,4 +1,4 @@
-# Packages
+# Components
 
 <div class="card-grid">
   <div class="card">
