@@ -6,6 +6,11 @@ export default defineConfig({
   title: "ShellUI",
   description: "A clean custom UI framework for Roblox.",
   
+  // This changes the browser tab icon (favicon) seen in Screenshot 2026-06-22 163723.png
+  head: [
+    ['link', { rel: 'icon', href: '/ShellUI/logo.png' }]
+  ],
+  
   markdown: {
     config: (md) => {
       md.use(tabsMarkdownPlugin)
@@ -13,6 +18,7 @@ export default defineConfig({
   },
 
   themeConfig: {
+    // VitePress automatically handles the base path for this logo
     logo: '/logo.png',
 
     nav: [
@@ -68,7 +74,6 @@ export default defineConfig({
           ]
         }
       ],
-
 
       '/configuration/': [
         {
